@@ -1,0 +1,75 @@
+
+#group name.
+
+group:  a_group 117
+
+# group members name
+
+members: [Oluwatobi Elijah Akanni, . Nimra, Taiwo Funmilayo Adebayo, Maneesh Satheesh, Muhammad Sajawal Khan]
+
+# general topic. 
+
+topic: Football Fantasy Premier League
+
+#  research question.
+
+RQ: Is there a difference in the means of total points scored across seasons (ranging from 2016 - 2021)?
+
+# Write your independent and dependent variables.  
+
+independent-var: season_x
+
+dependent-var: total_points 
+
+# null hypothesis for your research question.
+
+null-hypothesis: There is no difference of means between total points and seasons (ranging from 2016 - 2021)
+
+# alternative hypothesis for your research question.
+
+alt-hypothesis: There is difference of means between total points and seasons (ranging from 2016 - 2021)
+
+# the dataset ID (KNNN):
+
+dataset-id: K088
+
+# Write the dataset URL. 
+
+dataset-url: https://www.kaggle.com/datasets/joebeachcapital/fantasy-football
+
+# the dataset CSV filename.
+
+dataset-file:  cleaned_merged_seasons.csv
+
+# Paste the output of loading your dataset into R.
+
+columns: | 
+
+  [1] "season_x"          "name"              "position"          "team_x"    
+  
+  
+  [5] "assists"           "bonus"             "bps"               "clean_sheets"     
+  
+  
+  [9] "creativity"        "element"           "fixture"           "goals_conceded"   
+  
+  
+  [13] "goals_scored"      "ict_index"         "influence"         "kickoff_time"  
+  
+  
+  [17] "minutes"           "opponent_team"     "opp_team_name"     "own_goals"     
+  
+  
+  [21] "penalties_missed"  "penalties_saved"   "red_cards"         "round"         
+  
+  
+  [25] "saves"             "selected"          "team_a_score"      "team_h_score"     
+  
+  
+  [29] "threat"            "total_points"      "transfers_balance" "transfers_in"     
+  
+  
+  [33] "transfers_out"     "value"             "was_home"          "yellow_cards"  
+  
+  
+  [37] "GW"          
