@@ -3,7 +3,7 @@
 <h2>Statistical Analysis:</h2>
 
 <h3>Understanding and Applying Hypotheses:</h3> I formulated and tested hypotheses about the differences in total points scored across different seasons.
-<h3>Performing Statistical Tests:</h3> Iconducted a pairwise t-test with a Bonferroni correction to compare means between seasons.
+<h3>Performing Statistical Tests:</h3> I conducted a pairwise t-test with a Bonferroni correction to compare means between seasons.
 
 <h2>Data Management:</h2>
 
